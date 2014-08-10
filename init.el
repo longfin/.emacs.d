@@ -10,3 +10,5 @@
 (load "~/.emacs.d/appearance.el")
 (load "~/.emacs.d/hooks.el")
 (load "~/.emacs.d/vars.el")
+(load "~/.emacs.d/env.el")
+

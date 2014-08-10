@@ -11,4 +11,6 @@
  '(tooltip-mode nil))
 
 (setq virtualenv-root ".")
+(setq make-backup-files nil)
+(setq ring-bell-function 'ignore)
 
