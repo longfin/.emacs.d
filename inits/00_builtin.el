@@ -3,7 +3,7 @@
 (setq default-process-coding-system '(utf-8 . utf-8))
 (prefer-coding-system 'utf-8)
 (set-default-coding-systems 'utf-8)
-(setq default-tab-width 4)
+(setq tab-width 4)
 (setq-default indent-tabs-mode nil)
 
 (iswitchb-mode t)
