@@ -1,11 +1,3 @@
-(global-set-key (kbd "C-x C-b") 'ibuffer)
-(autoload 'ibuffer "ibuffer" "List buffers." t)
-
-(setq default-tab-width 4)
-
-(setq-default indent-tabs-mode nil)
-
-
 (defun delete-this-buffer-and-file ()
   "Removes file connected to current buffer and kills buffer."
   (interactive)

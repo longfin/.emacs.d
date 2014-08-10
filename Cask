@@ -55,6 +55,7 @@
 (depends-on "haml-mode")
 (depends-on "haskell-mode")
 (depends-on "highlight-parentheses")
+(depends-on "init-loader")
 (depends-on "ipython")
 (depends-on "jedi")
 (depends-on "jinja2-mode")

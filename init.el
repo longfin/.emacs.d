@@ -4,11 +4,4 @@
 (cask-initialize)
 (require 'pallet)
 
-(load "~/.emacs.d/encoding.el")
-(load "~/.emacs.d/modes.el")
-(load "~/.emacs.d/keys.el")
-(load "~/.emacs.d/appearance.el")
-(load "~/.emacs.d/hooks.el")
-(load "~/.emacs.d/vars.el")
-(load "~/.emacs.d/env.el")
-
+(init-loader-load "~/.emacs.d/inits")
