@@ -22,4 +22,4 @@ cask install
 # For Python / ELPY
 # Prerequisite: Install Python as per:
 # http://docs.python-guide.org/en/latest/#getting-started
-pip install --user --upgrade elpy flake8 rope jedi ipython
+pip install --user --upgrade elpy flake8 rope jedi ipython ropemacs
