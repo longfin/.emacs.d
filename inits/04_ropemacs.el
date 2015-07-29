@@ -1,3 +1,3 @@
-(require 'pymacs)
-(pymacs-load "ropemacs" "rope-")
-(setq ropemacs-enable-autoimport t)
+(defun ropemacs-load ()
+  (interactive)
+  (pymacs-load "ropemacs" "rope-"))

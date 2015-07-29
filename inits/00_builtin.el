@@ -5,8 +5,9 @@
 (set-default-coding-systems 'utf-8)
 (setq tab-width 4)
 (setq-default indent-tabs-mode nil)
+(set-input-method 'korean-hangul)
 
-(iswitchb-mode t)
+(icomplete-mode t)
 
 (defun iswitchb-local-keys ()
   (mapc (lambda (K)
@@ -23,12 +24,6 @@
 
 (setq inhibit-splash-screen t)
 (set-language-environment "UTF-8")
-
-(custom-set-faces
- '(default ((t (:inherit nil :stipple nil :background "#fcf4dc" :foreground "#52676f" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 140 :width normal :foundry "apple" :family "NanumGothicCoding")))))
-
-(color-theme-initialize)
-(color-theme-solarized-light)
 
 (add-hook 'eshell-mode-hook
 	  '(lambda nil
@@ -81,3 +76,23 @@
 (loop for path in (split-string (getenv "PATH") ":") do
       (add-to-list 'exec-path path))
 
+
+(defun clear-shell ()
+  (interactive)
+  (let ((comint-buffer-maximum-size 0))
+    (comint-truncate-buffer)))
+
+
+(global-set-key (kbd "M-<up>") 'windmove-up)
+(global-set-key (kbd "M-<down>") 'windmove-down)
+(global-set-key (kbd "M-<left>") 'windmove-left)
+(global-set-key (kbd "M-<right>") 'windmove-right)
+
+(global-set-key (kbd "C-s-h") 'shrink-window-horizontally)
+(global-set-key (kbd "C-s-l") 'enlarge-window-horizontally)
+(global-set-key (kbd "C-s-j") 'previous-multiframe-window)
+(global-set-key (kbd "C-s-k") 'next-multiframe-window)
+
+
+(when (member "나눔고딕코딩" (font-family-list))
+  (set-face-attribute 'default nil :font "나눔고딕코딩"))
