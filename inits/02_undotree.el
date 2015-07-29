@@ -1,1 +1,1 @@
-(global-undo-tree-mode t)
+(add-hook 'prog-mode-hook 'undo-tree-mode)

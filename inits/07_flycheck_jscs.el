@@ -5,7 +5,7 @@
   "A JavaScript code style checker.
 
 See URL `https://github.com/mdevils/node-jscs'."
-  :command ("jscs" "--reporter" "checkstyle"
+  :command ("jscs" "--reporter" "checkstyle" "--esnext"
             (config-file "--config" flycheck-jscs)
             source)
   :error-parser flycheck-parse-checkstyle
