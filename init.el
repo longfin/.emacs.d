@@ -5,6 +5,7 @@
 (require 'pallet)
 
 (setq init-loader-show-log-after-init 'error-only)
+(setq init-loader-byte-compile t)
 (init-loader-load "~/.emacs.d/inits")
 (put 'erase-buffer 'disabled nil)
 (custom-set-variables
@@ -19,7 +20,7 @@
  '(cua-read-only-cursor-color "#859900")
  '(custom-safe-themes
    (quote
-    ("4f2ede02b3324c2f788f4e0bad77f7ebc1874eff7971d2a2c9b9724a50fb3f65" "0928c3609728401c5b12f7c9f4a34f57af680aecba23532f6d29a0f611f1af9d" "1c57936ffb459ad3de4f2abbc39ef29bfb109eade28405fa72734df1bc252c13" "923faef2c7ed017e63f517703c846c6190c31400261e8abdb1be06d5b46ea19a" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "a772eafba4eda0ed57a5d651a96804487a1dacbfbf8658084bfe84546a7c7008" default)))
+    ("c382e5508237e176c150b9d4b4a78c4e1699fe1c51ec8c86816cbf42532443dd" "c930c2865c39135018cfd3b00bc3971c9990e1bef467558f195c3f036cc506de" "4f2ede02b3324c2f788f4e0bad77f7ebc1874eff7971d2a2c9b9724a50fb3f65" "0928c3609728401c5b12f7c9f4a34f57af680aecba23532f6d29a0f611f1af9d" "1c57936ffb459ad3de4f2abbc39ef29bfb109eade28405fa72734df1bc252c13" "923faef2c7ed017e63f517703c846c6190c31400261e8abdb1be06d5b46ea19a" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "a772eafba4eda0ed57a5d651a96804487a1dacbfbf8658084bfe84546a7c7008" default)))
  '(default-input-method "korean-hangul")
  '(fci-rule-color "#eee8d5")
  '(highlight-changes-colors (quote ("#d33682" "#6c71c4")))

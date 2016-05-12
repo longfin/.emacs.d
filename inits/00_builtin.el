@@ -53,8 +53,7 @@
           '(lambda()
              (setq c-basic-offset 2)
              (setq tab-width 2)
-			 (setq css-indent-offset 2)
-			 (auto-complete-mode 1)))
+			 (setq css-indent-offset 2)))
 
 (setq ansi-color-names-vector ; better contrast colors
       ["black" "red4" "green4" "yellow4"
@@ -68,6 +67,7 @@
 (scroll-bar-mode -1)
 
 (setq make-backup-files nil)
+(setq create-lockfiles nil)
 (setq ring-bell-function 'ignore)
 
 ;; Setup PATH
