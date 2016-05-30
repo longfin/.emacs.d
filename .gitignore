@@ -6,3 +6,5 @@ session.*
 
 /.python-environments/
 tramp
+eshell/
+projectile-bookmarks.eld
