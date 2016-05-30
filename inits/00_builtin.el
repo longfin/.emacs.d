@@ -98,3 +98,6 @@
 
 (when (member "나눔고딕코딩" (font-family-list))
   (set-face-attribute 'default nil :font "나눔고딕코딩"))
+
+(setq mac-command-modifier 'meta)
+(setq mac-option-modifier nil)
