@@ -98,3 +98,8 @@
 
 (when (member "나눔고딕코딩" (font-family-list))
   (set-face-attribute 'default nil :font "나눔고딕코딩"))
+
+
+(setq gnus-button-url 'browse-url-generic
+      browse-url-generic-program "google-chrome"
+      browse-url-browser-function gnus-button-url)
