@@ -8,3 +8,5 @@ session.*
 tramp
 eshell/
 projectile-bookmarks.eld
+/recentf
+/projectile.cache
