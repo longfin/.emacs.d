@@ -10,3 +10,10 @@ eshell/
 projectile-bookmarks.eld
 /recentf
 /projectile.cache
+
+curl-cookie-jar
+network-security.data
+elpa/
+.mc-lists.el
+.sx/
+haskell-fun
