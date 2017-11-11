@@ -78,7 +78,6 @@
 (depends-on "haml-mode")
 (depends-on "haskell-mode")
 (depends-on "heroku")
-(depends-on "heroku-theme")
 (depends-on "highlight-indentation")
 (depends-on "highlight-parentheses")
 (depends-on "ht")
