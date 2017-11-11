@@ -1,3 +1,10 @@
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (require 'cl)
 
 (require 'cask "~/.cask/cask.el")
@@ -48,6 +55,10 @@
     ("#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3")))
  '(magit-diff-use-overlays nil)
  '(magit-use-overlays nil)
+ '(muse-project-alist nil)
+ '(package-selected-packages
+   (quote
+    (dash-functional emmet-mode find-file-in-project highlight-indentation jedi-core json-reformat json-snatcher magit-popup markup-faces oauth pcache popup python-environment pythonic pyvenv queue rust-mode skewer-mode spinner tablist tracking web-completion-data websocket with-editor yasnippet yaxception magit flymake-rust racer exercism haskell-mode haskell-emacs flx company cider flycheck-rust company-racer jedi zencoding-mode yaml-mode yagist windresize web-mode web weather wc-mode vkill virtualenvwrapper undo-tree swiper swift-mode sql-indent splitter sphinx-doc solarized-theme sokoban slime-clj slack scss-mode scala-mode sass-mode restclient redo+ rainbow-delimiters rainbow-blocks qml-mode python-pylint python-pep8 python-mode pymacs pyflakes pyenv-mode protobuf-mode projectile pkgbuild-mode pep8 paredit pallet nsis-mode nodejs-repl nlinum nginx-mode muse multiple-cursors multi-web-mode multi-term multi-eshell markdown-mode+ mark-multiple magit-gh-pulls lui lua-mode levenshtein less-css-mode lcs kv keychain-environment jsx-mode json-mode jinja2-mode ipython init-loader ido-vertical-mode highlight-parentheses heroku-theme heroku hackernews gtags go-mode github-theme git-gutter gist ghci-completion ghc gh-md ggtags geiser flycheck-pyflakes flycheck-google-cpplint flx-ido flappymacs elpy ecb dropbox dockerfile-mode direx dired-single dired+ csv-mode company-web company-jedi company-flx company-emoji coffee-mode clojurescript-mode clojure-quick-repls cljdoc caskxy cargo bufshow aws-ec2 auto-complete-rst auctex android-mode anaphora ag adoc-mode ack ac-nrepl ac-js2 ac-html-bootstrap ac-html ac-emmet ac-cider 4clojure)))
  '(pdf-tools-enabled-modes
    (quote
     (pdf-history-minor-mode pdf-isearch-minor-mode pdf-links-minor-mode pdf-misc-minor-mode pdf-outline-minor-mode pdf-misc-size-indication-minor-mode pdf-misc-menu-bar-minor-mode pdf-annot-minor-mode pdf-sync-minor-mode pdf-misc-context-menu-minor-mode pdf-cache-prefetch-minor-mode pdf-view-auto-slice-minor-mode pdf-occur-global-minor-mode)))
