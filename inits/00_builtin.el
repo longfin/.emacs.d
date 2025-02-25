@@ -105,4 +105,4 @@
       browse-url-browser-function gnus-button-url)
 
 (setq mac-command-modifier 'meta)
-(setq mac-option-modifier nil)
+(setq mac-option-modifier 'meta)
